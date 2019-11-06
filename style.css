@@ -13,7 +13,7 @@ body {
   color: #0A0202;
   min-height: 100vh;
   min-width: 100vh;
-  background: url(./img/IMG_3246.jpg) #FFFFFF;
+  background: url(./img/matt-profile-try.jpg) #FFFFFF;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -50,11 +50,12 @@ nav ul {
   flex-direction: row;
 }
 nav li {
-  margin-left: 1rem;
+  margin-left: 1.5rem;
 }
 
 p {
   font-weight: 200;
+  font-size: 1.2rem;
 }
 
 .social img {
@@ -103,7 +104,6 @@ p {
 }
 @media (min-width: 1500px) {
   body {
-    background-repeat: repeat;
 
   }
   .centered {
