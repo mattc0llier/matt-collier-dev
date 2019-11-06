@@ -1,12 +1,13 @@
 const canvas = document.querySelector("canvas");
 
-canvas.width = window.innerWidth;
-canvas.height = 1000;
+canvas.width = 500;
+// canvas.width = window.innerWidth;
+canvas.height = 500;
 
 const context = canvas.getContext("2d");
 
-context.strokeStyle = "#ff4141";
-context.lineWidth = 10;
+context.strokeStyle = "#5214FF";
+context.lineWidth = 5;
 context.lineCap = "round";
 
 let shouldPaint = false;

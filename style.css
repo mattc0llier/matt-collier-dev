@@ -19,14 +19,12 @@ body {
   background-position: center;
 }
 
-main {
-}
 
 h1 {
-  font-size: 8rem;
+  font-size: 3rem;
   font-family:'Reenie Beanie', cursive;
   font-weight: 200;
-  margin: 3rem 0 0 0;
+  margin: 2rem 0 2rem 0;
 }
 
 a {
@@ -42,6 +40,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: auto;
 }
 
 nav ul {
@@ -58,6 +57,11 @@ p {
   font-size: 1.2rem;
 }
 
+.centered {
+  margin: 0 2rem 0 2rem;
+  width: auto;
+}
+
 .social img {
   max-width: 2rem;
   margin-right: 0.5rem;
@@ -72,9 +76,21 @@ p {
 }
 
 .painting {
+  position:  fixed;
+  bottom: 30px;
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
+  width: auto;
+  z-index: 2;
+}
+
+.colors a {
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  margin: 5px 0 0 0;
 }
 
 .send-painting {
@@ -92,20 +108,34 @@ p {
 }
 
 @media (min-width: 768px) {
-
+  .centered {
+    margin: 0 2rem 0 2rem;
+  }
 
 }
 
 @media (min-width: 960px) {
+  h1 {
+    font-size: 8rem;
+    font-family:'Reenie Beanie', cursive;
+    font-weight: 200;
+    margin: 2rem 0 2rem 0;
+  }
+
   .centered {
     margin: 0 auto;
     width: 1050px;
   }
+
+  .painting a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin: 0 10px 0 0;
+  }
 }
 @media (min-width: 1500px) {
-  body {
-
-  }
   .centered {
     margin: 0 auto;
     width: 1050px;
