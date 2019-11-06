@@ -1,0 +1,113 @@
+* {
+  box-sizing: inherit;
+}
+
+html, body {
+  margin: 0;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: #0A0202;
+  min-height: 100vh;
+  min-width: 100vh;
+  background: url(./img/IMG_3246.jpg) #FFFFFF;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+main {
+}
+
+h1 {
+  font-size: 8rem;
+  font-family:'Reenie Beanie', cursive;
+  font-weight: 200;
+  margin: 3rem 0 0 0;
+}
+
+a {
+  text-decoration: none;
+  color: #0A0202;
+}
+
+a:hover {
+  border-bottom: solid 2px #0A0202;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+nav li {
+  margin-left: 1rem;
+}
+
+p {
+  font-weight: 200;
+}
+
+.social img {
+  max-width: 2rem;
+  margin-right: 0.5rem;
+}
+.social a {
+  border-bottom: 0;
+
+}
+
+.info {
+  max-width: 30rem;
+}
+
+.painting {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.send-painting {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.send-painting p {
+  font-family:'Reenie Beanie', cursive;
+}
+.send-painting img {
+  max-width: 2rem;
+  margin-left: 0.5rem;
+}
+
+@media (min-width: 768px) {
+
+
+}
+
+@media (min-width: 960px) {
+  .centered {
+    margin: 0 auto;
+    width: 1050px;
+  }
+}
+@media (min-width: 1500px) {
+  body {
+    background-repeat: repeat;
+
+  }
+  .centered {
+    margin: 0 auto;
+    width: 1050px;
+  }
+}
