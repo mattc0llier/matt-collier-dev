@@ -1,7 +1,7 @@
 const canvas = document.querySelector("canvas");
 
-canvas.width = 100vw;
-canvas.height = 100vh;
+canvas.width = 500px;
+canvas.height = 500px;
 // canvas.width = window.innerWidth;
 
 
