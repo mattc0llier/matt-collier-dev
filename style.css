@@ -13,11 +13,11 @@ body {
   color: #0A0202;
   min-height: 100vh;
   min-width: 100vh;
-  box-shadow: 0 0 200px rgba(0,0,0,0.4) inset;
+  box-shadow: 0 0 200px rgba(0,0,0,0.3) inset;
   /* background: url(./img/sqaure-centered-matt-profile-cut.png) #FFFFFF; */
   background: 
     /* top, transparent red */ 
-    url(./img/sqaure-centered-matt-profile-cut.png)
+    url(./img/sqaure-centered-matt-profile-cut-tall.png)
     ,
     /* bottom, image */
 
