@@ -13,7 +13,14 @@ body {
   color: #0A0202;
   min-height: 100vh;
   min-width: 100vh;
-  background: url(./img/matt-profile-try.jpg) #FFFFFF;
+  /* background: url(./img/sqaure-centered-matt-profile-cut.png) #FFFFFF; */
+  background: 
+    /* top, transparent red */ 
+    url(./img/sqaure-centered-matt-profile-cut.png)
+    ,
+    /* bottom, image */
+radial-gradient(ellipse at center, #d1cccd 0%,#d1cccd 16%,#d1cccd 16%,#d1cccd 25%,#d1cccd 50%,#d1cccd 63%,#d1cccd 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d1cccd', endColorstr='#d1cccd',GradientType=1 );;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: bottom;
@@ -80,6 +87,11 @@ p {
   font-size: 1.2rem;
   line-height: 1.5;
   margin-top: 0;
+}
+
+.small-logo {
+  font-size: 3rem;
+  font-weight: 200;
 }
 
 .centered {
