@@ -19,12 +19,13 @@ body {
     url(./img/sqaure-centered-matt-profile-cut.png)
     ,
     /* bottom, image */
-radial-gradient(ellipse at center, #d1cccd 0%,#d1cccd 16%,#d1cccd 16%,#d1cccd 25%,#d1cccd 50%,#d1cccd 63%,#d1cccd 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d1cccd', endColorstr='#d1cccd',GradientType=1 );;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: bottom;
-  cursor: crosshair;
+
+    linear-gradient(to top, #D1CCCD, #F6F6F6);
+
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    cursor: crosshair;
 }
 
 
