@@ -1,6 +1,6 @@
 const canvas = document.querySelector("canvas");
 
-canvas.height = 500px;
+canvas.height = window.innerHeight;
 canvas.width = window.innerWidth;
 
 
